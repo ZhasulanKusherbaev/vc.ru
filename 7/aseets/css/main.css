@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    display: grid;
+     grid-template-rows: 200px 170px 370px;
+}
+.title {
+   font-size: 72px; 
+   width: 800px;
+   padding: 35px;
+}
+.textcard {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+   
+    
+}
+.number {
+    color: gray;
+    font-size: 32px;
+    font-weight:bolder
+}
+.bottomtext {
+    color: black;
+    font-weight: 100;
+    font-size: 24px;
+    padding-top: 20px;
+}
+.image-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 20px;
+}
+.img4 {
+    transform: translateX(-25px);
+}
+.img3 {
+    transform: translateX(-20px);
+}
+

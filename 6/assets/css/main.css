@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1000px 1000px;
+    padding: 20px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.title > h3 {
+    font-size: 44px;
+    width: 450px;
+}
+.title > p {
+    font-size: 19px;
+    width: 400px;
+    padding-top: 15px;
+}
+ .buttons {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    padding-top: 15px;
+    transform: translateY(10px);
+    
+ }
+.btn1 {
+    width: 129px;
+    height: 46px;
+    background: black;
+    color: white;
+    border-radius: 16px;
+    font-size: 16px;
+    transform: translateY(20px);
+}
+.btn1:hover {
+    cursor: pointer;
+}
+.btn1:active {
+    transform: translateY(10px);
+}             
+.btn2 {
+    width: 179px;
+    height: 46px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 16px;
+    font-size: 16px;
+    transform: translateY(20px);
+}
+.btn2:hover {
+    cursor: pointer;
+}
+.btn2:active {
+    transform: translateY(10px);
+}
+.list {
+   border: 1px solid black;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 10px; 
+   text-align: start; 
+   align-items: center;
+   transform: translateY(130px);
+   border-radius: 16px;
+   width: 652px;
+   height: 88px;
+   padding-left: 20px;
+}
+.loremtext {
+    width: 100px;
+}
+.photos {
+    display: flex;
+    position: relative;
+}
+.img1 {
+    position: absolute;
+    z-index: 999;
+    top: 52px;
+    left: 65px;
+    width: 480px;
+    height: 628px;
+}
+.img2 {
+    position: absolute;
+    z-index: 0;
+    top: 237px;
+    left: 314px;
+    width: 310px;
+    height: 476px;
+}
+.img3 {
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+    left: 14px;
+    width: 480px;
+    height: 568px;
+}
+.img5 {
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    z-index: 0;
+    top: -29px;
+    left: -37px;
+}
+.img7 {
+    width: 256px;
+    height: 60px;
+    position: absolute;
+    z-index: 999;
+    top: 584px;
+    left: -14px;
+}
+.img8 {
+    width: 252px;
+    height: 53px;
+    position: absolute;
+    z-index: 999;
+    top: 92px;
+    left: 328px;
+}
+.img4 {
+    width: 102px;
+    height: 129px;
+    position: absolute;
+    z-index: 999;
+    top: 536px;
+    left: 437px;
+}
+.img6 {
+    width: 75px;
+    height: 94px;
+    position: absolute;
+    z-index: 999;
+    top: 63px;
+    left: 79px;
+}
